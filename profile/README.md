@@ -16,10 +16,11 @@ Today, we do this work manually, which is slow and can vary from annotator to an
 
 ## What we work on
 
-- **Image quality assessment:** measuring how usable each AO-OCT volume is for cell-level analysis (focus, contrast, noise, artefacts).
-- **Annotation review:** tools to check and improve the reliability of expert annotations used as training data.
-- **ML-based cell detection:** models that find microglia in 3D retinal volumes.
-- **Visualisation tools:** software for inspecting 3D images alongside their annotations.
+We are a pre-seed spin-off of MedUni Vienna, building on an AO-OCT lab prototype developed there over 10 years and already used with patients.
+
+- **Thyra-ONE:** a compact AO-OCT research device that captures a 3D retinal volume at 2 µm resolution in about 2.5 s. It uses a pyramid wavefront sensor from astronomy, and works through moderate cataract and lens implants. Target: Q1 2028.
+- **Thyra-AI:** models that detect retinal microglia and classify them as resting or activated, trained on annotated AO-OCT scans from MedUni Vienna. Target: 2028.
+- **Image quality and visualisation tools:** checks on how usable each volume is for cell-level analysis and how reliable the expert labels are, plus software for inspecting 3D volumes alongside their annotations.
 
 ## Data and privacy
 
